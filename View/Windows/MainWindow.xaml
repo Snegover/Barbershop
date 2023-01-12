@@ -1,0 +1,27 @@
+﻿<Window x:Class="BarberRazor.View.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarberRazor.View.Windows"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#9FB6CD">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+            <Button Content="Услуги" Name="ServiceBtn"/>
+            <Button Content="Записи" Name="EntryBtn"/>
+            <Button Content="Барберы" Name="BarberBtn"/>
+            <Button Content="Выход" Name="LogOutBtn" Click="LogOutBtn_Click"/>
+        </StackPanel>
+
+        
+    </Grid>
+
+
+</Window>

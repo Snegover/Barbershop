@@ -1,0 +1,15 @@
+﻿using BarberRazor.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BarberRazor.AppData
+{
+    class AppConnect
+    {
+        public static BarbershopRazorEntities auth = new BarbershopRazorEntities();
+    }
+
+}
